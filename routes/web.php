@@ -14,8 +14,14 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('welcome', ['name' =>'Nimsha']);
 })->name("home");
 Route::get('about', function () {
     return view('about');
 })->name("about");
+Route::get('service', function () {
+    return view('services');
+})->name("services");
+Route::get('contact-us', function () {
+    return view('contact');
+})->name("contact");

@@ -1,9 +1,8 @@
 @extends('layout')
 
-@section("title","About Page")
+@section('title',"Service Page")
 
 @vite(['resources/css/home.css'])
-
 @section('mainContent')
-    <h1>About Page</h1>
+    <h1>Service Provided</h1>
 @endsection

@@ -1,10 +1,10 @@
 *{
     margin:0;
     padding:0;
-    background-color: aqua;
+    background-color: rgb(35, 198, 210);
 }
 .header{ 
-    padding: 25px 10%; background: blue;
+    padding: 25px 10%; background: transparent;
     display:flex;justify-content: flex-end;
 }
 .navbar a {
@@ -12,11 +12,19 @@
     font-weight: 600;
     padding: 0px 10px;
     transition: 0.3s all;
+    color: rgb(34, 24, 226);
+    background: transparent;
     
 }
+.navbar a:hover,
+.navbar a.active{
+    color: white;
+    transition: 0.3s all;
+}
+/*
 .container{
     padding: 16px;
-    background-color: bisque;
+    background-color: whitesmoke;
     height: 500px; width: 450px;
     margin-left: 450px;
     margin-top: 50px;
@@ -40,4 +48,4 @@ input[type=text],input[type=password]{
 }
 input[type=input-box]{
     justify-content: center;
-}
+} */

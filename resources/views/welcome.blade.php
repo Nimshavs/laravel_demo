@@ -1,10 +1,11 @@
 @extends('layout')
 
 @section('title',"Home Page")
-
+@vite(['resources/css/home.css'])
 
 @section('mainContent')
-    <div class="container">
+    <h1>Hi I'm {{$name}}</h1>
+    <!-- <div class="container">
         <label for="uname">Username</label>
         <input type="text" placeholder="enter username" name="uname"><br><br>
         <label for="password">Password</label>
@@ -16,5 +17,5 @@
             font-size: 50px;
             text-align:center;
         }
-    </style>
+    </style> -->
 @endsection
